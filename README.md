@@ -35,3 +35,21 @@ python -m venv .venv
 python3 -m venv .venv
 source .venv/bin/activate
 ```
+
+### 3. Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 📦 requirements.txt
+```ini
+flask==2.2.3
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.1
+requests==2.28.2
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+tiktoken==0.5.1
+```
