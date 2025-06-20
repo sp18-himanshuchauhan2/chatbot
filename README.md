@@ -68,6 +68,8 @@ python-dotenv==1.0.0
 tiktoken==0.5.1
 ```
 
+---
+
 ### ▶️ How to Run the App
 
 ```bash
@@ -81,6 +83,8 @@ Starting Flask Dashboard...
 Available on http://127.0.0.1:5000
 ```
 
+---
+
 ### 🧪 How to Use
 <ol>
     <li>Open your browser and go to: http://127.0.0.1:5000</li>
@@ -93,6 +97,8 @@ Available on http://127.0.0.1:5000
         <li>A simple Pandas DataFrame in table format</li>
     </ul></li>
 </ol>
+
+---
 
 ### 📦 Example Input & Output
 
@@ -109,3 +115,5 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
     <li>Random sine plot image</li>
     <li>Table with 3 users, scores, and pass/fail status</li>
 </ul>
+
+---
