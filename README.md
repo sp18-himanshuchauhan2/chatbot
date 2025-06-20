@@ -20,3 +20,22 @@ A Python web application that fetches and analyzes any public webpage, displayin
 ```bash
 git clone https://github.com/sp18-himanshuchauhan2/mini-data-dashboard.git
 cd mini-data-dashboard
+```
+
+### 2. Create and Activate a Virtual Environment
+
+<details> 
+<summary>Windows</summary>
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+</details> 
+
+<details> 
+<summary>macOS/Linux</summary>
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+</details>
