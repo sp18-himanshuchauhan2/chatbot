@@ -15,7 +15,8 @@ A Python web application that fetches and analyzes any public webpage, displayin
 
 ## 📁 Project Structure
 
-my_project/
+```bash
+mini-data-dashboard/
 │
 ├── chat.py             # Helper Python script
 ├── main.py             # Main Python script
@@ -23,6 +24,7 @@ my_project/
 ├── .env                # (Optional) Environment file for secrets/configs
 ├── .gitignore  
 └── README.md
+```
 
 ---
 
