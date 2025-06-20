@@ -93,3 +93,19 @@ Available on http://127.0.0.1:5000
         <li>A simple Pandas DataFrame in table format</li>
     </ul></li>
 </ol>
+
+### 📦 Example Input & Output
+
+#### Input URL:
+
+```cpp
+https://en.wikipedia.org/wiki/OnePlus_Nord
+```
+
+#### Output Sample:
+<ul>
+    <li>Word Count: **6358**</li>
+    <li>Token Count: **12325**</li>
+    <li>Random sine plot image</li>
+    <li>Table with 3 users, scores, and pass/fail status</li>
+</ul>
