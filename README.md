@@ -13,6 +13,19 @@ A Python web application that fetches and analyzes any public webpage, displayin
 
 ---
 
+## 📁 Project Structure
+
+my_project/
+│
+├── chat.py             # Helper Python script
+├── main.py             # Main Python script
+├── requirements.txt    # All required packages with versions
+├── .env                # (Optional) Environment file for secrets/configs
+├── .gitignore  
+└── README.md
+
+---
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -24,14 +37,12 @@ cd mini-data-dashboard
 
 ### 2. Create and Activate a Virtual Environment
 
-#### Windows
 ```bash
+# Windows
 python -m venv .venv
 .venv\Scripts\activate
-```
 
-#### macOS/Linux
-```bash
+# macOS/Linux
 python3 -m venv .venv
 source .venv/bin/activate
 ```
