@@ -21,7 +21,6 @@ mini-data-dashboard/
 ├── chat.py             # Helper Python script
 ├── main.py             # Main Python script
 ├── requirements.txt    # All required packages with versions
-├── .env                # (Optional) Environment file for secrets/configs
 ├── .gitignore  
 └── README.md
 ```
@@ -30,14 +29,14 @@ mini-data-dashboard/
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
+### Step 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sp18-himanshuchauhan2/mini-data-dashboard.git
 cd mini-data-dashboard
 ```
 
-### 2. Create and Activate a Virtual Environment
+### Step 2. Create and Activate a Virtual Environment
 
 #### Windows
 ```bash
@@ -51,13 +50,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install Required Packages
+### Step 3. Install Required Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 📦 requirements.txt
+#### 📦 requirements.txt
 ```ini
 flask==2.2.3
 pandas==1.5.3
@@ -68,3 +67,29 @@ beautifulsoup4==4.12.2
 python-dotenv==1.0.0
 tiktoken==0.5.1
 ```
+
+### ▶️ How to Run the App
+
+```bash
+python main.py
+```
+
+<p>You will see:</p>
+
+```cpp
+Starting Flask Dashboard...
+Available on http://127.0.0.1:5000
+```
+
+### 🧪 How to Use
+<ol>
+    <li>Open your browser and go to: http://127.0.0.1:5000</li>
+    <li>Enter any valid public URL (e.g., a Wikipedia page).</li>
+    <li>Click Fetch & Analyze.</li>
+    <li>See the results:<ul>
+        <li>Word Count</li>
+        <li>Token Count (useful for GPT models)</li>
+        <li>Random Chart (auto-generated)</li>
+        <li>A simple Pandas DataFrame in table format</li>
+    </ul></li>
+</ol>
