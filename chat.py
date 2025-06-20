@@ -67,10 +67,25 @@ def text_stats_from_url(url):
             "token_count": 0,
             "error": str(e)
         }
+    
+# Plot helper
+def generate_plot():
+    x = np.linspace(0, 10, 100)
+    y = np.sin(x) + np.random.normal(0, 0.1, 100)
+    fig, ax = plt.subplots()
+    ax.plot(x, y, label="Noisy Sine Wave", color="blue")
+    ax.legend()
+    ax.set_title("Sine Wave Plot")
+
+    buf = BytesIO()
+    plt.savefig(buf, format="png")
+    buf.seek(0)
+    return base64.b64encode(buf.read()).decode("utf-8")
 
 @app.route("/", methods=["GET", "POST"])
 def dashboard():
     stats = None
+    plot_url = generate_plot()
     
     # Create a sample DataFrame
     df = pd.DataFrame({
@@ -84,4 +99,4 @@ def dashboard():
         url = request.form.get("url")
         stats = text_stats_from_url(url)
 
-    return render_template_string(TEMPLATE, stats=stats, table=table_html)
+    return render_template_string(TEMPLATE, stats=stats, plot_url=plot_url, table=table_html)
