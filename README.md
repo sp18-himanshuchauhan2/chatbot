@@ -24,18 +24,14 @@ cd mini-data-dashboard
 
 ### 2. Create and Activate a Virtual Environment
 
-<details> 
 <summary>Windows</summary>
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
-</details> 
 
-<details> 
 <summary>macOS/Linux</summary>
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-</details>
