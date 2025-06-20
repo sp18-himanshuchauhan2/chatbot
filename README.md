@@ -130,3 +130,10 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 | BeautifulSoup4  | HTML parsing                       |
 | python-dotenv   | Config management                  |
 | tiktoken        | GPT-style token counting           |
+
+### 📌 Notes
+<ul>
+    <li>Requires internet access to fetch and analyze online URLs.</li>
+    <li>Only supports plain HTML (not JavaScript-rendered pages).<li>
+    <li>Tested on Python 3.10+</li>
+</ul>
