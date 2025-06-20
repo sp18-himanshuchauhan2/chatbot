@@ -131,6 +131,8 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 | python-dotenv   | Config management                  |
 | tiktoken        | GPT-style token counting           |
 
+---
+
 ### 📌 Notes
 <ul>
     <li>Requires internet access to fetch and analyze online URLs.</li>
