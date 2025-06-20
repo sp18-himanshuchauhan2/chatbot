@@ -15,7 +15,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-# Sample HTML Template
+# HTML Template
 TEMPLATE = """
 <!DOCTYPE html>
 <html>
@@ -75,7 +75,7 @@ def generate_plot():
     fig, ax = plt.subplots()
     ax.plot(x, y, label="Noisy Sine Wave", color="blue")
     ax.legend()
-    ax.set_title("Sample Sine Wave Plot")
+    ax.set_title("Sine Wave Plot")
 
     buf = BytesIO()
     plt.savefig(buf, format="png")
