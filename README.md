@@ -136,6 +136,6 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 ### 📌 Notes
 <ul>
     <li>Requires internet access to fetch and analyze online URLs.</li>
-    <li>Only supports plain HTML (not JavaScript-rendered pages).<li>
+    <li>Only supports plain HTML (not JavaScript-rendered pages).</li>
     <li>Tested on Python 3.10+</li>
 </ul>
