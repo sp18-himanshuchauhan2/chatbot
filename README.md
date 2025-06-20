@@ -104,8 +104,8 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 
 #### Output Sample:
 <ul>
-    <li>Word Count: <b>6358</li>
-    <li>Token Count: <b>12325</li>
+    <li>Word Count: <b>6358</b></li>
+    <li>Token Count: <b>12325</b></li>
     <li>Random sine plot image</li>
     <li>Table with 3 users, scores, and pass/fail status</li>
 </ul>
