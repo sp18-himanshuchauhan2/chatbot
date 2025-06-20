@@ -120,7 +120,7 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 
 ### 🧰 Technologies Used
 
-| Library         | Purpose                           |
+| Library         | Purpose                            |
 |-----------------|------------------------------------|
 | Flask           | Web server and routing             |
 | Pandas          | Data table creation                |
@@ -130,8 +130,6 @@ https://en.wikipedia.org/wiki/OnePlus_Nord
 | BeautifulSoup4  | HTML parsing                       |
 | python-dotenv   | Config management                  |
 | tiktoken        | GPT-style token counting           |
-
----
 
 ### 📌 Notes
 <ul>
